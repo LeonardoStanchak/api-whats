@@ -1,0 +1,28 @@
+{
+  "name": "whats-sender",
+  "version": "1.0.0",
+  "description": "Api utilizando  Node.js com typescript para enviar um chatbox automatico via whatsApp de forma sem consumir o dev utilizado pelas grandes empresas",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf./build && tsc",
+    "dev": "nodemon",
+    "start": "npm-run build && node build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeonardoStanchak/api-whats.git"
+  },
+  "author": "LeoSta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeonardoStanchak/api-whats/issues"
+  },
+  "homepage": "https://github.com/LeonardoStanchak/api-whats#readme",
+  "devDependencies": {
+    "@types/node": "^18.8.4",
+    "nodemon": "^2.0.20",
+    "rimraf": "^3.0.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4"
+  }
+}
